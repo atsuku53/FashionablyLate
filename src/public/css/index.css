@@ -1,0 +1,202 @@
+.contact__content {
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.contact__title {
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contact__form {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.contact__error {
+    color: red;
+    font-size: 12px;
+    padding-left: 20px;
+}
+
+.contact__name {
+    display: flex;
+}
+
+.contact__name--title {
+    width: 30%;
+}
+
+.contact__name--input {
+    display: flex;
+    justify-content: left;
+    gap: 30px;
+    width: 70%;
+}
+
+.contact__last-name--input,
+.contact__first-name--input {
+    width: 40%;
+    padding: 5px;
+    background-color: #dcdcdc;
+    border-radius: 4px;
+    border: none;
+}
+
+.contact__gender {
+    display: flex;
+}
+
+.contact__gender--title {
+    width: 30%;
+}
+
+.contact__gender--input {
+    accent-color: #808000;
+    width: 70%;
+    display: flex;
+    justify-content: left;
+    gap: 5px;
+}
+
+.contact__gender--female,
+.contact__gender--other {
+    margin-left: 70px;
+}
+
+.contact__email {
+    display: flex;
+}
+
+.contact__email--title {
+    width: 30%;
+}
+
+.contact__email--input {
+    width: 70%;
+    padding: 5px;
+    background-color: #dcdcdc;
+    border-radius: 4px;
+    border: none;
+}
+
+.contact__tel {
+    display: flex;
+}
+
+.contact__tel--title {
+    width: 30%;
+}
+
+.contact__tel--input {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    width: 70%;
+}
+
+.contact__tel--input-1,
+.contact__tel--input-2,
+.contact__tel--input-3 {
+    width: 30%;
+    padding: 5px;
+    background-color: #dcdcdc;
+    border-radius: 4px;
+    border: none;
+}
+
+.contact__address {
+    display: flex;
+}
+
+.contact__address--title {
+    width: 30%;
+}
+
+.contact__address--input {
+    width: 70%;
+    padding: 5px;
+    background-color: #dcdcdc;
+    border-radius: 4px;
+    border: none;
+}
+
+.contact__building {
+    display: flex;
+}
+
+.contact__building--title {
+    width: 30%;
+}
+
+.contact__building--input {
+    width: 70%;
+    padding: 5px;
+    background-color: #dcdcdc;
+    border-radius: 4px;
+    border: none;
+}
+
+.contact__category {
+    display: flex;
+}
+
+.contact__category select:invalid {
+    color: gray;
+}
+
+.contact__category option {
+    color: black;
+}
+
+.contact__category option:first-child {
+    color: gray;
+}
+
+.contact__category--title {
+    width: 30%;
+}
+
+.contact__category--input {
+    width: 40%;
+    padding: 5px;
+    background-color: #dcdcdc;
+    border-radius: 4px;
+    border: none;
+}
+
+.contact__detail {
+    display: flex;
+}
+
+.contact__detail--title {
+    width: 30%;
+}
+
+.contact__detail--input {
+    width: 70%;
+    height: 100px;
+    padding: 5px;
+    background-color: #dcdcdc;
+    border-radius: 4px;
+    border: none;
+}
+
+.contact__button {
+    display: flex;
+    justify-content: center;
+}
+
+.contact__button--submit {
+    padding: 5px 20px;
+    font-size: 14px;
+    background-color: var(--main-color);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
