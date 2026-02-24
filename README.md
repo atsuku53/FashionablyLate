@@ -11,8 +11,7 @@
 - composer install
 - cp .env.example .env 環境変数を適宜変更
 - php artisan key:generate
-- php artisan migrate
-- php artisan db:seed
+- マイグレーション、ダミーデータ挿入は実行済み
 
 ## 開発環境
 - お問い合わせ画面：http://localhost/
@@ -30,3 +29,6 @@
 
 ## ER図
 <img width="491" height="425" alt="test2 drawio" src="https://github.com/user-attachments/assets/461f657f-e2b8-4796-ba29-7abd7d1ff9b6" />
+
+## 備考
+管理画面のエクスポートボタンは表示のみでエクスポート機能は未実装
