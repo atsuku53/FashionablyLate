@@ -29,3 +29,4 @@
 - nginx 1.21.1
 
 ## ER図
+<img width="491" height="425" alt="test2 drawio" src="https://github.com/user-attachments/assets/461f657f-e2b8-4796-ba29-7abd7d1ff9b6" />
