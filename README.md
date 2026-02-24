@@ -20,6 +20,7 @@
 - ユーザー登録画面：http://localhost/register/
 - ユーザーログイン画面：http://localhost/login/
 - 管理画面：http://localhost/admin/
+- phpMyAdmin：http://localhost:8080/
 
 ## 使用技術（実行環境）
 - PHP 8.1
